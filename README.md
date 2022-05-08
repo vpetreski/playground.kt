@@ -1,8 +1,11 @@
 # Kotlin Playground
 
-- [Main.kt](src/main/kotlin/Main.kt) - No package
+- [Main.kt](src/main/kotlin/Main.kt) - no package; no semicolon
 
 ## Basics
-- [Hello1](src/main/kotlin/basics/Hello1.kt), [Hello2](src/main/kotlin/basics/Hello2.kt) - Top-level function; Main with args & no args; String templates, Array syntax & wrappers; IF expression
-- [Variables](src/main/kotlin/basics/Variables.kt) - Read-only & Mutable variables; Type inference
-- [Functions1](src/main/kotlin/basics/Functions1.kt), [Functions2](src/main/kotlin/basics/Functions2.kt), [FunctionsJ](src/main/kotlin/basics/FunctionsJ.java) - Expression body; Unit; top-level, member, local; Calling from Java;  
+- [Hello1](src/main/kotlin/basics/Hello1.kt), [Hello2](src/main/kotlin/basics/Hello2.kt) - top-level function; main with args & no args; string templates, Array syntax & wrappers; if expression
+- [Variables](src/main/kotlin/basics/Variables.kt) - read-only & mutable variables; type inference
+- [Functions1](src/main/kotlin/basics/Functions1.kt), [Functions2](src/main/kotlin/basics/Functions2.kt), [FunctionsJ](src/main/kotlin/basics/FunctionsJ.java) - expression body; Unit; top-level, member, local; calling from Java; named & default args; @JvmOverloads
+
+## Control Structures
+- TODO
