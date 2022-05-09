@@ -10,4 +10,4 @@
 ## Control Structures
 - [Conditionals](src/main/kotlin/cstruct/Conditionals.kt) - if & when; is & smart cast;  
 - [Loops](src/main/kotlin/cstruct/Loops.kt) - for, in, ranges
-- [InChecksAndRanges](src/main/kotlin/cstruct/InChecksAndRanges.kt) - TODO
+- [InChecksAndRanges](src/main/kotlin/cstruct/InChecksAndRanges.kt) - in use cases; ranges
