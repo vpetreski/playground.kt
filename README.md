@@ -12,3 +12,7 @@
 - [Loops](src/main/kotlin/cstruct/Loops.kt) - for, in, ranges
 - [InChecksAndRanges](src/main/kotlin/cstruct/InChecksAndRanges.kt) - in use cases; ranges
 - [CheckingIdentifier](src/main/kotlin/cstruct/CheckingIdentifier.kt) - small task to practice ranges
+- [Exceptions](src/main/kotlin/cstruct/Exceptions.kt) - no checked/unchecked; throw & try expressions; @Throws
+
+## Extensions
+- [ExtensionFunctions](src/main/kotlin/extensions/ExtensionFunctions.kt) - TODO
