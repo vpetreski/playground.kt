@@ -11,3 +11,4 @@
 - [Conditionals](src/main/kotlin/cstruct/Conditionals.kt) - if & when; is & smart cast;  
 - [Loops](src/main/kotlin/cstruct/Loops.kt) - for, in, ranges
 - [InChecksAndRanges](src/main/kotlin/cstruct/InChecksAndRanges.kt) - in use cases; ranges
+- [CheckingIdentifier](src/main/kotlin/cstruct/CheckingIdentifier.kt) - small task to practice ranges
