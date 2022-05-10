@@ -15,4 +15,4 @@
 - [Exceptions](src/main/kotlin/cstruct/Exceptions.kt) - no checked/unchecked; throw & try expressions; @Throws
 
 ## Extensions
-- [ExtensionFunctions](src/main/kotlin/extensions/ExtensionFunctions.kt) - TODO
+- [ExtensionFunctions](src/main/kotlin/extensions/ExtensionFunctions.kt) - extension functions, examples
