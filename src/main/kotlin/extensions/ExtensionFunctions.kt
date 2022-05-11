@@ -55,6 +55,7 @@ fun main(args: Array<String>) {
     // Extensions are very powerful, they give is nice syntactic features for standard Java types
 
     // Int extension function: until
+    // infix fun Int.until(to: Int): IntRange
     1.until(10)
     // infix variation - so it's not a build-in keyword, just normal extension function called with infix form
     1 until 10
