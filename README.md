@@ -17,3 +17,4 @@
 ## Extensions
 - [ExtensionFunctions](src/main/kotlin/extensions/ExtensionFunctions.kt) - extension functions, examples, standard library
 - [SumExtensionFunction](src/main/kotlin/extensions/SumExtensionFunction.kt) - small task to create extension function
+- [CallingExtensions](src/main/kotlin/extensions/CallingExtensions.kt) - how extensions interact with inheritance and can extensions hide members
