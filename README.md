@@ -20,3 +20,6 @@
 - [CallingExtensions](src/main/kotlin/extensions/CallingExtensions.kt) - how extensions interact with inheritance and can extensions hide members
 - With extensions, we can keep our classes and interfaces APIs minimal and write everything else as extension, but keep them close together.
 - We can use extensions when we don't control some class or interface, many existing Java libraries have companion libraries with a number of extensions.
+
+## Nullability
+- [NullableTypes](src/main/kotlin/nullability/NullableTypes.kt) - nullable types; nullability operators; 
