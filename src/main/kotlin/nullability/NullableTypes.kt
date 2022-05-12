@@ -79,4 +79,28 @@ fun main() {
     // Bad example of using not-null assertion
     // person.company!!.address!!.country
     // Prefer ?. and ?: and if-checks instead of !!
+
+    // Under the hood Kotlin uses @NotNull annotation for non-nullable type and @Nullable for nullable type
+    // Better performance comparing to Java's Optional since Kotlin doesn't create additional objects, just one to store the value + annotations
+
+    // List of nullable elements - list elements might be null
+    val l1: List<Int?>
+
+    // Nullable list - list might be null
+    val l2: List<Int>?
+
+    // List of nullable elements AND nullable list
+    val l3: List<Int?>?
+}
+
+// Lists and nullability
+fun foo(list1: List<Int?>, list2: List<Int>?) {
+    list1.size
+    // 2nd list can be null
+    list2?.size
+    // Elements can be null
+    val i: Int? = list1.get(0)
+    // 2nd list can be null thus j can end up being null!
+    val j: Int? = list2?.get(0)
+
 }
