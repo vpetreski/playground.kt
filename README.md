@@ -26,3 +26,6 @@
 - [EmptyOrNull](src/main/kotlin/nullability/EmptyOrNull.kt) - small task to check if string is null or empty
 - [SafeCasts](src/main/kotlin/nullability/SafeCasts.kt) - a safe way to cast an expression to a type
 - Nullability is very [important](https://kotlinlang.org/docs/null-safety.html)
+
+## Functional Programming
+- [Lambdas](src/main/kotlin/functional/Lambdas.kt) - TODO
