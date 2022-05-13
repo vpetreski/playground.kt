@@ -23,3 +23,4 @@
 
 ## Nullability
 - [NullableTypes](src/main/kotlin/nullability/NullableTypes.kt) - nullable types; nullability operators
+- [EmptyOrNull](src/main/kotlin/nullability/EmptyOrNull.kt) - small task to check if string is null or empty
