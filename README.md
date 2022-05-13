@@ -25,4 +25,4 @@
 - [NullableTypes](src/main/kotlin/nullability/NullableTypes.kt) - nullable types; nullability operators
 - [EmptyOrNull](src/main/kotlin/nullability/EmptyOrNull.kt) - small task to check if string is null or empty
 - [SafeCasts](src/main/kotlin/nullability/SafeCasts.kt) - a safe way to cast an expression to a type
-- Nullability is very important!
+- Nullability is very [important](https://kotlinlang.org/docs/null-safety.html#checking-for-null-in-conditions)!
