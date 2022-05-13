@@ -34,6 +34,6 @@ fun foo(any: Any) {
 fun main(args: Array<String>) {
     val s = "foo"
 
-    println(s as? Int)    // null
-    println(s as Int?)    // exception
+    println(s as? Int) // null
+    println(s as Int?) // exception
 }
