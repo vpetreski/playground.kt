@@ -34,7 +34,7 @@ fun main() {
     // If type of the argument can be inferred, we can remove it
     numbers.any { i -> i > 0 }
     // it denotes the argument if it's the only one
-    numbers.any { it -> it > 0 }
+    numbers.any { it > 0 }
     // Multi-line lambda
     numbers.any {
         println("Processing $it")
