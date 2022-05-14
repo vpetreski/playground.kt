@@ -28,4 +28,4 @@
 - Nullability is very [important](https://kotlinlang.org/docs/null-safety.html)
 
 ## Functional Programming
-- [Lambdas](src/main/kotlin/functional/Lambdas.kt) - TODO
+- [Lambdas](src/main/kotlin/functional/Lambdas.kt) - lambda syntax
