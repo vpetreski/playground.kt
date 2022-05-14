@@ -29,4 +29,4 @@
 
 ## Functional Programming
 - [Lambdas](src/main/kotlin/functional/Lambdas.kt) - lambda syntax
-- [CollectionsOp](src/main/kotlin/functional/CollectionsOp.kt) - common operations on collections
+- [CollectionsOps](src/main/kotlin/functional/CollectionsOps.kt) - common operations on collections
