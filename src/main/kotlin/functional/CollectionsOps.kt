@@ -56,7 +56,7 @@ fun main() {
     println(listOfLists.flatten()) // [a, b, c, d, e, f, g, h]
 
     // FlatMap - combines two operations: map and flatten
-    // So, lambda expression is doing mapping here and transforms ["123", "45"] to [[1, 2, 3], [4, 5]]m then flatten them to [1, 2, 3, 4, 5]
+    // So, lambda expression is doing mapping here and transforms ["123", "45"] to [[1, 2, 3], [4, 5]] then flatten them to [1, 2, 3, 4, 5]
     val listOfStringNumbers = listOf("123", "45")
     // println(listOfStringNumbers.map { it.toList() }) // [[1, 2, 3], [4, 5]]
     println(listOfStringNumbers.flatMap { it.toList() }) // [1, 2, 3, 4, 5]
