@@ -34,4 +34,5 @@
 - [InterchangeablePredicates](src/main/kotlin/functional/InterchangeablePredicates.kt) - small task to practice none, any, all
 - [FunctionTypes](src/main/kotlin/functional/FunctionTypes.kt) - function types, nullability
 - [MemberReferences](src/main/kotlin/functional/MemberReferences.kt) - member references, function references, bound, non-bound
-- [ReturnFromLambda](src/main/kotlin/functional/ReturnFromLambda.kt) - TODO
+- [ReturnFromLambda](src/main/kotlin/functional/ReturnFromLambda.kt) - how return behaves with lambdas
+- Kotlin is not purely functional language, but rather combines OOP and functional styles
