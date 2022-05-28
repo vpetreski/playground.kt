@@ -32,3 +32,5 @@
 - [CollectionsOps](src/main/kotlin/functional/CollectionsOps.kt) - common operations on collections
 - [OperationsQuiz](src/main/kotlin/functional/OperationsQuiz.kt) - practice common operations on collections
 - [InterchangeablePredicates](src/main/kotlin/functional/InterchangeablePredicates.kt) - small task to practice none, any, all
+- [FunctionTypes](src/main/kotlin/functional/FunctionTypes.kt) - function types, nullability
+- [MemberReferences](src/main/kotlin/functional/MemberReferences.kt) - TODO
