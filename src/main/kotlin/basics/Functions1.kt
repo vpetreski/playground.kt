@@ -34,7 +34,7 @@ fun displaySeparator(character: Char = '*', size: Int = 10) {
 
 fun sum1(a: Int = 0, b: Int = 0, c: Int = 0) = a + b + c
 
-// From Kotlin we have 2^3 = 8 variations, from Java only 4 overloads (see FunctionsJ.java)
+// From Kotlin, we have 2^3 = 8 variations, from Java only 4 overloads (see FunctionsJ.java)
 @JvmOverloads
 fun sum2(a: Int = 0, b: Int = 0, c: Int = 0) = a + b + c
 
