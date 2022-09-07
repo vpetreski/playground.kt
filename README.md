@@ -40,3 +40,7 @@
 # Properties
 - [Properties](src/main/kotlin/properties/Properties.kt) - properties, fields, accessors
 - [InterfaceAndExtProperties](src/main/kotlin/properties/InterfaceAndExtProperties.kt) - properties in interfaces, extension properties
+- [LazyAndLateInit](src/main/kotlin/properties/LazyAndLateInit.kt) - lazy properties, later initialization
+
+# OOP
+- TODO
