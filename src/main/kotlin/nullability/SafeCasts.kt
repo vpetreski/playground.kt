@@ -20,7 +20,6 @@ fun foo(any: Any) {
         // foo as? Type
         // foo is Type => foo as Type
         // foo !is Type => null
-
     }
 
     val s: String? = any as? String

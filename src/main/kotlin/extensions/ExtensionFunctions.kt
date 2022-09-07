@@ -5,6 +5,7 @@ package extensions
 // We can access the receiver with "this" when needed, but we can also omit when possible (length)
 // We can't call private methods of the receiver inside our function
 fun String.lastChar() = this[length - 1]
+fun String.lngth() = length
 
 // If we want to use this extension elsewhere, we have to import it
 //import extensions.lastChar
@@ -52,7 +53,7 @@ fun main(args: Array<String>) {
         println("$index $element")
     }
 
-    // Extensions are very powerful, they give is nice syntactic features for standard Java types
+    // Extensions are very powerful, they give nice syntactic features for standard Java types
 
     // Int extension function: until
     // infix fun Int.until(to: Int): IntRange

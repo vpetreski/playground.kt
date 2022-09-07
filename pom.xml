@@ -30,6 +30,7 @@
                 <executions>
                     <execution>
                         <id>compile</id>
+                        <!--suppress KotlinMavenPluginPhase -->
                         <phase>compile</phase>
                         <goals>
                             <goal>compile</goal>
@@ -45,11 +46,15 @@
                 </executions>
             </plugin>
             <plugin>
+                <!--suppress MavenModelInspection -->
                 <artifactId>maven-surefire-plugin</artifactId>
+                <!--suppress MavenModelInspection -->
                 <version>2.22.2</version>
             </plugin>
             <plugin>
+                <!--suppress MavenModelInspection -->
                 <artifactId>maven-failsafe-plugin</artifactId>
+                <!--suppress MavenModelInspection -->
                 <version>2.22.2</version>
             </plugin>
             <plugin>

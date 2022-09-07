@@ -36,3 +36,6 @@
 - [MemberReferences](src/main/kotlin/functional/MemberReferences.kt) - member references, function references, bound, non-bound
 - [ReturnFromLambda](src/main/kotlin/functional/ReturnFromLambda.kt) - how return behaves with lambdas
 - Kotlin is not purely functional language, but rather combines OOP and functional styles
+
+# Properties
+- [Properties](src/main/kotlin/properties/Properties.kt) - TODO

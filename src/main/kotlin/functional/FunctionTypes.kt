@@ -19,7 +19,7 @@ fun main() {
 
     // Calling lambda directly
     // { println("Hey!") }()
-    // ^ Possible but look strange, better use run for that:
+    // ^ Possible but looks strange, better use run for that:
     run { println("Hey!") }
 
     // SAM interfaces in Java: https://www.tutorialspoint.com/what-are-the-sam-interfaces-in-java
