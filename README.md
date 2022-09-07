@@ -38,4 +38,5 @@
 - Kotlin is not purely functional language, but rather combines OOP and functional styles
 
 # Properties
-- [Properties](src/main/kotlin/properties/Properties.kt) - TODO
+- [Properties](src/main/kotlin/properties/Properties.kt) - properties, fields, accessors
+- [InterfaceAndExtProperties](src/main/kotlin/properties/InterfaceAndExtProperties.kt) - properties in interfaces, extension properties
