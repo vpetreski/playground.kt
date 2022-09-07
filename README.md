@@ -40,7 +40,15 @@
 # Properties
 - [Properties](src/main/kotlin/properties/Properties.kt) - properties, fields, accessors
 - [InterfaceAndExtProperties](src/main/kotlin/properties/InterfaceAndExtProperties.kt) - properties in interfaces, extension properties
-- [LazyAndLateInit](src/main/kotlin/properties/LazyAndLateInit.kt) - lazy properties, later initialization
+- [LazyAndLateInit](src/main/kotlin/properties/LazyAndLateInit.kt) - lazy properties, late initialization
 
 # OOP
-- TODO
+- Defaults are different in Kotlin - `public` and `final` by default
+- If you want to make it non-final, you have to set it explicitly as `open`
+- No package private visibility in Kotlin, use `internal` for that - visible in module
+- Module is a set of Kotlin files compiled together (IntelliJ IDEA, Maven project, Gradle source set)
+- So we have there modifiers: `public`, `protected` `private`, `internal`. Then: `final`, `open`, `abstract`. Also `override`.
+- In Kotlin we can have multiple classes in the same file, while in Java we prefer one class per file. One file can additionally contain multiple top-level functions, properties, etc.
+- In Kotlin, package doesn't have to correspond to directory structure - we can have `org.company.store` package, but it can be physically located in top level `store` folder for example. Good recommendatioon is to simply omit `org.company` or `org.company.project` from directory structure.
+- [CtxInherit](src/main/kotlin/properties/CtxInherit.kt) - constructors, inheritance syntax
+- [ClassModifiers](src/main/kotlin/properties/ClassModifiers.kt) - class modifiers

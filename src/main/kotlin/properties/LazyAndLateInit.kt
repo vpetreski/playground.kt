@@ -32,8 +32,8 @@ fun main() {
     println("In main...")
     // Not computed if not called - lazy!
     // If called multiple times - will be computed only once!
-    //println(lazyValue)
-    //println(lazyValue)
+    // println(lazyValue)
+    // println(lazyValue)
 
     // Late initialization
     val foo = Foo() // data is not initialized in constructor
