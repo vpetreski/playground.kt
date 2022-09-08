@@ -1,7 +1,5 @@
 package oop
 
-import java.lang.IllegalArgumentException
-
 // import oop.Color.*
 
 // `enum` is just a modifier for `class`!

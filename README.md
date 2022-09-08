@@ -52,3 +52,5 @@
 - In Kotlin, package doesn't have to correspond to directory structure - we can have `org.company.store` package, but it can be physically located in top level `store` folder for example. Good recommendatioon is to simply omit `org.company` or `org.company.project` from directory structure.
 - [CtxInherit](src/main/kotlin/oop/CtxInherit.kt) - constructors, inheritance syntax
 - [ClassModifiers](src/main/kotlin/oop/ClassModifiers.kt) - class modifiers, enum, data, equality, sealed, inner, nested, class delegation
+- [Objects](src/main/kotlin/oop/Objects.kt) - objects, object declaration, object expression, companion object, "static" members
+- [Constants](src/main/kotlin/oop/Constants.kt) - constants... 
