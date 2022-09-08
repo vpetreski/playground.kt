@@ -1,5 +1,7 @@
 package oop
 
+import java.lang.IllegalArgumentException
+
 // import oop.Color.*
 
 // `enum` is just a modifier for `class`!
@@ -34,6 +36,55 @@ data class Contact(val name: String, val address: String) {
     var nickname: String? = null
 }
 
+// interface Expr
+sealed class Expr
+
+// class Num(val value: Int) : Expr
+class Num(val value: Int) : Expr()
+
+// class Sum(val left: Expr, val right: Expr) : Expr
+class Sum(val left: Expr, val right: Expr) : Expr()
+
+fun eval(e: Expr): Int = when (e) {
+    is Num -> e.value
+    is Sum -> eval(e.left) + eval(e.right)
+    // Without this else we would get compiler error - 'when' expression must be exhaustive, add necessary 'else' branch
+    // This is happening because there is no guarantee that there are no other impl of Expr in other places and we are not covering them
+    // else -> TODO("Not supported yet")
+    // or like this
+    // else -> throw IllegalArgumentException("Unknown expression")
+    // BUT - if we change Expr interface to class add add sealed modifier:
+    // That restricts class hierarchy - all subclasses / interface impls must be located in the same file!
+    // In other words - only here we can implement it and nowhere else, so we are sure there is no more impls
+}
+
+interface Repository {
+    fun getById(id: Int): Person
+    fun getAll(): List<Person>
+}
+
+interface Logger {
+    fun logAll()
+}
+
+// So sometimes we just want to delegate calls and we have to do this manually like this
+class Controller(val repository: Repository, val logger: Logger) : Repository, Logger {
+    override fun getById(id: Int): Person {
+        return repository.getById(id)
+    }
+
+    override fun getAll(): List<Person> {
+        return repository.getAll()
+    }
+
+    override fun logAll() {
+        return logger.logAll()
+    }
+}
+
+// BUT, in Kotlin we can do this, and it will automatically delegate, WOW! This is class delegation!
+class Controller2(val repository: Repository, val logger: Logger) : Repository by repository, Logger by logger
+
 fun main() {
     println(getDescription(Color.RED))
 
@@ -57,5 +108,11 @@ fun main() {
 
     // Without data and explicit equals implementation, class would take default implementation for == (equals) which is === (reference) like in Java!
 
+    // Sealed classes
+    // 1 + (2 + 3) = 6
+    println(eval(Sum(Num(1), Sum(Num(2), Num(3)))))
 
+    // Inner and nested classes - https://kotlinlang.org/docs/nested-classes.html
+
+    // Class delegation - see Controller2 above!
 }
