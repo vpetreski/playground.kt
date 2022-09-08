@@ -37,12 +37,12 @@
 - [ReturnFromLambda](src/main/kotlin/functional/ReturnFromLambda.kt) - how return behaves with lambdas
 - Kotlin is not purely functional language, but rather combines OOP and functional styles
 
-# Properties
+## Properties
 - [Properties](src/main/kotlin/properties/Properties.kt) - properties, fields, accessors
 - [InterfaceAndExtProperties](src/main/kotlin/properties/InterfaceAndExtProperties.kt) - properties in interfaces, extension properties
 - [LazyAndLateInit](src/main/kotlin/properties/LazyAndLateInit.kt) - lazy properties, late initialization
 
-# OOP
+## OOP
 - Defaults are different in Kotlin - `public` and `final` by default
 - If you want to make it non-final, you have to set it explicitly as `open`
 - No package private visibility in Kotlin, use `internal` for that - visible in module
