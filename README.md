@@ -59,3 +59,6 @@
 ## Conventions
 - [OperatorOverloading](src/main/kotlin/conventions/OperatorOverloading.kt) - operator overloading
 - [Conventions](src/main/kotlin/conventions/Conventions.kt)
+
+## Inline Functions
+- [LibraryFunctions](src/main/kotlin/inline/LibraryFunctions.kt) - by inlining, library functions look like built-in language construct
