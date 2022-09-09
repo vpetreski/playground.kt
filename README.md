@@ -64,8 +64,7 @@
 - [LibraryFunctions](src/main/kotlin/inline/LibraryFunctions.kt) - by inlining, library functions look like built-in language construct
 - [Inline](src/main/kotlin/inline/Inline.kt) - the power of inline
 
-## Sequences
-- [Sequences](src/main/kotlin/sequences/Sequences.kt) - Collection VS Sequences, how to create sequences...
-
-## Lambda with receiver
-- TODO
+## Mix
+- [Sequences](src/main/kotlin/mix/Sequences.kt) - collection vs sequences, how to create mix...
+- [LambdaWithReceiver](src/main/kotlin/mix/LambdaWithReceiver.kt) - lambda with receiver
+- [Types](https://www.coursera.org/learn/kotlin-for-java-developers/lecture/GzTa3/basic-types) - types, type hierarchy, Any, Unit, Nothing, nullable types, collection types

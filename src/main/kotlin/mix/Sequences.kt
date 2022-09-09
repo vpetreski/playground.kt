@@ -1,4 +1,4 @@
-package sequences
+package mix
 
 fun main() {
     // All functions created on Collection in Kotlin are inline, so that's good for perf optimization, as we already know
