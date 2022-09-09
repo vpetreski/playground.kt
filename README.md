@@ -68,3 +68,9 @@
 - [Sequences](src/main/kotlin/mix/Sequences.kt) - collection vs sequences, how to create mix...
 - [LambdaWithReceiver](src/main/kotlin/mix/LambdaWithReceiver.kt) - lambda with receiver
 - [Types](https://www.coursera.org/learn/kotlin-for-java-developers/lecture/GzTa3/basic-types) - types, type hierarchy, Any, Unit, Nothing, nullable types, collection types
+
+## Other
+- [Kotlin](https://kotlinlang.org)
+- [Gradle](https://gradle.org)
+- [Ktor](https://ktor.io)
+- [Kodein](https://github.com/kosi-libs/Kodein)
