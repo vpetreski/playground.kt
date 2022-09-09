@@ -62,3 +62,7 @@
 
 ## Inline Functions
 - [LibraryFunctions](src/main/kotlin/inline/LibraryFunctions.kt) - by inlining, library functions look like built-in language construct
+- [Inline](src/main/kotlin/inline/Inline.kt) - the power of inline
+
+## Sequences
+- [CollectionVsSequences](src/main/kotlin/sequences/CollectionVsSequences.kt) - Collection VS Sequences
