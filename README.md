@@ -65,4 +65,7 @@
 - [Inline](src/main/kotlin/inline/Inline.kt) - the power of inline
 
 ## Sequences
-- [CollectionVsSequences](src/main/kotlin/sequences/CollectionVsSequences.kt) - Collection VS Sequences
+- [Sequences](src/main/kotlin/sequences/Sequences.kt) - Collection VS Sequences, how to create sequences...
+
+## Lambda with receiver
+- TODO

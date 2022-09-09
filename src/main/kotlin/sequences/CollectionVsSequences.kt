@@ -1,5 +1,0 @@
-package sequences
-
-fun main() {
-
-}
