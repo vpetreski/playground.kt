@@ -53,9 +53,9 @@
 - [CtxInherit](src/main/kotlin/oop/CtxInherit.kt) - constructors, inheritance syntax
 - [ClassModifiers](src/main/kotlin/oop/ClassModifiers.kt) - class modifiers, enum, data, equality, sealed, inner, nested, class delegation
 - [Objects](src/main/kotlin/oop/Objects.kt) - objects, object declaration, object expression, companion object, "static" members
-- [Constants](src/main/kotlin/oop/Constants.kt) - constants... 
-- [Generics](src/main/kotlin/oop/Generics.kt) - generics... 
+- [Constants](src/main/kotlin/oop/Constants.kt) 
+- [Generics](src/main/kotlin/oop/Generics.kt) 
 
 ## Conventions
 - [OperatorOverloading](src/main/kotlin/conventions/OperatorOverloading.kt) - operator overloading
-- [Conventions](src/main/kotlin/conventions/Conventions.kt) - conventions...
+- [Conventions](src/main/kotlin/conventions/Conventions.kt)
